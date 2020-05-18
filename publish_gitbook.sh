@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # install the plugins and build the static site
 gitbook install && gitbook build
 
