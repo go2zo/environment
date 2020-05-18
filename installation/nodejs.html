@@ -1,0 +1,302 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Nodejs · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="chocolatey.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="package-manager.html">
+            
+                <a href="package-manager.html">
+            
+                    
+                    Package Manager
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chocolatey.html">
+            
+                <a href="chocolatey.html">
+            
+                    
+                    Chocolatey
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="nodejs.html">
+            
+                <a href="nodejs.html">
+            
+                    
+                    Nodejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Nodejs</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="linux">Linux</h2>
+<h2 id="macos">macOS</h2>
+<h2 id="windows">Windows</h2>
+<h3 id="chocolatey-&#xD1B5;&#xD55C;-&#xC124;&#xCE58;">Chocolatey &#xD1B5;&#xD55C; &#xC124;&#xCE58;</h3>
+<h4 id="choco-&#xC124;&#xCE58;"><code>choco</code> &#xC124;&#xCE58;</h4>
+<ul>
+<li><a href="chocolatey.html#installation"><code>choco</code> &#xC124;&#xCE58;</a> &#xCC38;&#xC870;</li>
+</ul>
+<h4 id="node-js-lts-&#xC124;&#xCE58;">Node JS LTS &#xC124;&#xCE58;</h4>
+<p><a href="https://chocolatey.org/packages/nodejs-lts" target="_blank">chocolatey&#xC5D0;&#xC11C; &#xD328;&#xD0A4;&#xC9C0;&#xB97C; &#xAC80;&#xC0C9;</a>&#xD558;&#xC5EC; &#xC124;&#xCE58;&#xD55C;&#xB2E4;.</p>
+<pre><code class="lang-powershell">&gt; choco install nodejs-lts
+</code></pre>
+<h4 id="&#xC124;&#xCE58;-&#xD655;&#xC778;">&#xC124;&#xCE58; &#xD655;&#xC778;</h4>
+<pre><code class="lang-powershell">&gt; node -v
+v12.<span class="hljs-number">16.3</span>
+&gt; npm -v
+<span class="hljs-number">6.14</span>.<span class="hljs-number">4</span>
+</code></pre>
+<h3 id="windows-installer-&#xD1B5;&#xD55C;-&#xC124;&#xCE58;">Windows Installer &#xD1B5;&#xD55C; &#xC124;&#xCE58;</h3>
+<p>chocolatey package &#xC124;&#xCE58; &#xC2DC; &#xC778;&#xC2A4;&#xD1A8;&#xB7EC;&#xAC00; &#xC81C;&#xACF5;&#xB418;&#xB294; &#xACBD;&#xC6B0; &#xAE30;&#xBCF8;&#xC801;&#xC73C;&#xB85C; &#xC778;&#xC2A4;&#xD1A8;&#xB7EC; &#xC124;&#xCE58;&#xAC00; &#xB41C;&#xB2E4;.</p>
+<p>&#xB530;&#xB77C;&#xC11C; <a href="https://nodejs.org/ko/download/" target="_blank">&#xB9C1;&#xD06C;</a>&#xC5D0;&#xC11C; &#xCD5C;&#xC2E0; LTS &#xBC84;&#xC804; msi &#xD30C;&#xC77C;&#xC744; &#xB2E4;&#xC6B4;&#xB85C;&#xB4DC;&#xD558;&#xC5EC; &#xC124;&#xCE58;&#xD558;&#xC5EC;&#xB3C4; &#xB3D9;&#xC77C;&#xD55C; &#xACB0;&#xACFC;&#xC774;&#xB2E4;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chocolatey.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Chocolatey">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Nodejs","level":"1.2.3","depth":2,"previous":{"title":"Chocolatey","level":"1.2.2","depth":2,"path":"installation/chocolatey.md","ref":"installation/chocolatey.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"installation/nodejs.md","mtime":"2020-05-18T08:09:25.887Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-18T08:20:24.340Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
