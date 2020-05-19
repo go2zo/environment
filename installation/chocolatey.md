@@ -6,7 +6,7 @@
 - PowerShell v2+
 - .NET Framework 4+
 
-## Installation {#installation}
+## Install {#install}
 
 1. `Windows + X`를 눌러 **Windows Powershell(관리자)** 실행
 

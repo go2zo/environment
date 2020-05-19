@@ -2,11 +2,17 @@
 
 ## Linux
 
+### YUM
+
+
+
 ## macOS
 
 ### Homebrew
 
 -[공식문서](https://brew.sh/index_ko) 참조
+
+
 
 ## Windows
 
@@ -14,4 +20,4 @@ chocolatey와 scoop을 사용해봤는데 문서나 package가 chocolatey가 나
 
 ### Chocolatey
 
-- [chocolatey 설치 문서](/installation/chocolatey.md#installation) 참조
+- [chocolatey 설치 문서](/installation/chocolatey.md#install) 참조
