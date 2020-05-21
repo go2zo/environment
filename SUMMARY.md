@@ -5,4 +5,4 @@
 - [Installation](installation/README.md)
   - [Package Manager](installation/package-manager.md)
   - [Chocolatey](installation/chocolatey.md)
-  - [Nodejs](installation/nodejs.md)
+  - [Nodejs](installation/nodejs/index.md)

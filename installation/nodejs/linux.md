@@ -1,6 +1,6 @@
 # Install NodeJS on Unix-like
 
-## Using `n` package
+## Using `n` package {#using-n-package}
 
 [`n`](https://github.com/tj/n#installation)은 [`nvm`](https://github.com/nvm-sh/nvm#install--update-script) 같은 node 버전관리 패키지이다. (Windows 불가)
 
@@ -62,6 +62,29 @@ $ curl -sL https://rpm.nodesource.com/setup_14.x | bash -
 
 # No root privileges 
 $ curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+```
+
+## Using [`nvm`](https://github.com/nvm-sh/nvm)
+
+### `nvm` 설치
+
+[설치 스크립트](https://github.com/nvm-sh/nvm#install--update-script)를 이용하여 설치한다.
+
+```bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+### node 설치
+
+```bash
+# Long-term Support 설치
+$ nvm install --lts
+
+# latest
+$ nvm install node
+
+# specific version
+$ nvm install 10.10.0
 ```
 
 ## Using Source Code
