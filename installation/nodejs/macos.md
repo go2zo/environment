@@ -1,10 +1,12 @@
-# Install NodeJS on MacOS
+# NodeJS on MacOS
 
-## Using `n` package
+## Install
 
-- [linux#Using n package](linux.md#using-n-package) 참조
+### Using n package
 
-## Using [Homebrew](https://brew.sh/)
+- [linux#Using n package](linux#using-n-package) 참조
+
+### Using [Homebrew](https://brew.sh/)
 
 mac의 막강한 패키지 관리자 [homebrew를 통해 설치](https://formulae.brew.sh/formula/node#default) 가능하다.
 
@@ -15,7 +17,7 @@ $ brew install node
 $ brew install node@12
 ```
 
-## 기타 방법
+### 기타 방법
 
 - [MacPorts](https://www.macports.org/)
 
@@ -29,7 +31,7 @@ $ port install nodejs12
 $ pkgin -y install nodejs
 ```
 
-# Uninstall
+## Uninstall
 
 node & npm을 깔끔하게 제거하는 [방법](https://gist.github.com/TonyMtz/d75101d9bdf764c890ef)이다.
 

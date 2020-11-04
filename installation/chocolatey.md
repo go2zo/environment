@@ -6,7 +6,7 @@
 - PowerShell v2+
 - .NET Framework 4+
 
-## Install {#install}
+## Installation {#installation}
 
 1. `Windows + X`를 눌러 **Windows Powershell(관리자)** 실행
 
@@ -36,4 +36,5 @@
 Chocolatey v0.10.15
 ```
 
+## Usage
 
